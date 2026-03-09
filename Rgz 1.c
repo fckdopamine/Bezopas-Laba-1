@@ -98,8 +98,8 @@ char *powerToHex(int n, int k) {
 
     return result;
 }
-
-int main() {
+void program3()
+{
     int n, k;
     char input[100];
 
@@ -132,5 +132,9 @@ int main() {
     printf("Результат: %s\n", hexResult);
     free(hexResult);
 
+    return 0;
+}
+int main() {
+    program3();
     return 0;
 }
