@@ -69,7 +69,7 @@ unsigned long long getMant(unsigned long long v) {
 
 /* ================= MAIN ================= */
 
-int main(void) {
+int romantoint(void) {
     union {
         unsigned long long ll;
         double d;
