@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include "scripts.h"
 
 #define MAX_ATTEMPTS 3
 #define MAX_LEN 50
