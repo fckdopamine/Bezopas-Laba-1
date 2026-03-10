@@ -353,7 +353,7 @@ void demonstrate_multiplication(const char* num1_str, const char* num2_str, int 
     printf("\n");
 }
 
-int main()
+void romantoint()
 {
     printf("=========================================\n");
     printf("ТАБЛИЦЫ ДЛЯ 12-РИЧНОЙ СИСТЕМЫ СЧИСЛЕНИЯ\n");
@@ -370,5 +370,4 @@ int main()
     demonstrate_multiplication("27", "14", 12);
     demonstrate_multiplication("A30B", "C4", 14);
     demonstrate_multiplication("D59", "A2", 14);
-    return 0;
 }
